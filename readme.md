@@ -1,4 +1,8 @@
-Questões resolvidas por Davi Matias Soares Genuino:
+Atividade de Davi Matias Soares Genuino.
+Link para o repositório do GITHUB onde estão os arquivos:
+https://github.com/davimatiassg/side-quest-4-search-complexity-davimatiassg/tree/main
+
+Questões resolvidas: E1, E2, E4, E5, E9, E10, E12.
 
 E1 - Local Minimum Array
 - O algoritmo em questão segue uma estratégia que, ironicamente, acabou sendo idêntica à da dica, mesmo que eu só tenha visto-a depois de resolver a questão. O código funciona de maneira similar à busca binária e, em seu pior caso, que ocorre quando dentro de uma array de tamanho n > 1 não existem mínimos locais conforme especificado pela questão, realiza log₂n repetições antes de retornar o valor final.
