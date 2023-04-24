@@ -22,3 +22,13 @@ E10 - Find the jump in the array.
 
 E12 - Sum of two.
 	- Desta vez, a busca binária não resolve o problema, afinal, as listas não são dadas como ordenadas. Precisamos realmente verificar todos os elementos de B para poder encontrar uma solução válida sempre (que existir uma), e, para cada valores b de B, precisamos observar todas as combinações de valores a₁, a₂ de A. No pior caso deste algorítmo, acabamos por realizar absurdos Ω(E12) = n * n * (n-1) = n³-n² ~ n³ testes no seu pior caso, que ocorre quando não é possível realizar nenhuma soma e, logo, é necessário testar todos os casos.
+
+
+
+
+INSTRUÇÕES DE COMPILAÇÃO:
+
+Caso queira testar quaisquer um dos códigos, comente ou delete a função "main()" de quaisquer arquivos envolvidos nesse processo.
+Tenha em mente que o segundo exercício usa o algorítmo do primeiro. Logo, isso deve ser feito com ambos os arquivos para que funcione.
+
+O exercício 5 (E5 - Hot or cold) utiliza variáveis globais na sua codificação, e a função "Guess" é a responsável por lidar com elas, uma vez que se tratam da infra-estrutura de um "jogo" que foge ao escopo do problema principal (que seria, no caso, jogar o jogo (: ).
